@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "../../../target/app/",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es2015",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom", "es2015"],
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["app/*"],
+      "@core": ["app/@core"],
+      "@core/*": ["app/@core/*"],
+      "@modules": ["app/@modules"],
+      "@modules/*": ["app/@modules/*"],
+      "@shared": ["app/@shared"],
+      "@shared/*": ["app/@shared/*"],
+      "@assets": ["assets"],
+      "@assets/*": ["assets/*"],
+      "@env/*": ["environments/*"]
+    }
+  },
+  "include": ["app", "src/test/javascript/"],
+  "exclude": ["node_modules"],
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "preserveWhitespaces": true
+  }
+}

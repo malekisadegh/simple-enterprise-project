@@ -1,0 +1,27 @@
+[
+  {
+    "title": "فرم پیگیری درخواست",
+    "icon": "business",
+    "link": "/inquiry-request"
+  },
+  {
+    "title": "ثبت درخواست",
+    "icon": "business",
+    "link": "/simple-request"
+  },
+  {
+    "title": "گزارش ثبت درخواست ها",
+    "icon": "business",
+    "link": "/reporting-initial-registration-request"
+  },
+  {
+    "title": "گزارش پرونده های تسویه شده",
+    "icon": "business",
+    "link": "/cleared-files-reporting"
+  },
+  {
+    "title": "گزارش اطلاعات یک درخواست خاص",
+    "icon": "business",
+    "link": "/demands-files-reporting"
+  }
+]
